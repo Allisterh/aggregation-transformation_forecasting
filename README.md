@@ -1,11 +1,13 @@
 # Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation
 
-Code of the simulations of "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation" by R. Pic, C. Dombry, P. Naveau, and M. Taillardat available on [arXiv](https://arxiv.org/abs/2407.00650) and [HAL](https://hal.science/hal-04629671).
+Code of the simulations and case study of "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation" by R. Pic, C. Dombry, P. Naveau, and M. Taillardat available on [arXiv](https://arxiv.org/abs/2407.00650) and [HAL](https://hal.science/hal-04629671).
 
 ### Resources
 
 - [RandomFields](https://www.jstatsoft.org/article/view/v063i08)
 - [scoringRules](https://github.com/FK83/scoringRules)
+- [MultivCalibration](https://github.com/sallen12/MultivCalibration)
+- [EUPPBench](https://github.com/EUPP-benchmark)
 
 ### Citation
 ```bibtex
