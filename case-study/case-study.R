@@ -287,3 +287,17 @@ dff %>%
 
 dff %>%
   select(model,es,es_p3,vs_0.5,vs_1,vs_2,pvs_0.5,pvs_1,pvs_2,as_a1_h1,as_a1_h2,as_a1_h3,agg_crps_sm_p3,agg_se_fte_t2.5_p3,agg_se_fte_t5_p3,agg_se_fte_t7.5_p3,agg_se_fte_t10_p3)
+
+
+### Skill Scores
+
+dff_ss <- dff %>%
+  reframe(model,across(where(is.double), ~ (.x[1]-.x)/.x[1]*100)) %>%
+  slice(2:3)
+dff_ss
+
+dff_ss %>%
+  select(model,agg_se,agg_dss,agg_bs_t2.5,agg_bs_t5,agg_bs_t7.5,agg_bs_t10,agg_qs_a0.7,agg_qs_a0.8,agg_qs_a0.9,agg_crps)
+
+dff_ss %>%
+  select(model,es,es_p3,vs_0.5,vs_1,vs_2,pvs_0.5,pvs_1,pvs_2,as_a1_h1,as_a1_h2,as_a1_h3,agg_crps_sm_p3,agg_se_fte_t2.5_p3,agg_se_fte_t5_p3,agg_se_fte_t7.5_p3,agg_se_fte_t10_p3)
