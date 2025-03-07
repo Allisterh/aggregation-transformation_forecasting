@@ -1,6 +1,6 @@
-[![DOI](https://zenodo.org/badge/815634789.svg)](https://doi.org/10.5281/zenodo.14982271)
-
 # Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation
+
+[![DOI](https://zenodo.org/badge/815634789.svg)](https://doi.org/10.5281/zenodo.14982271)
 
 Code of the simulations and case study of "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation" by R. Pic, C. Dombry, P. Naveau, and M. Taillardat available on [arXiv](https://arxiv.org/abs/2407.00650) and [HAL](https://hal.science/hal-04629671).
 
